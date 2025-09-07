@@ -3,11 +3,7 @@ class User:
     def __init__(self, username,email, password):
         self.username=username
         self._email= email      # we cant read this attribute should not be used outside the class or in subclass Protected
-        if len(password)>=8:
-            self.password=password
-        else:
-            return "No password set"
-            
+        self.password=password
         
   # python       
 # does not enforce strict rule unlike other language 
@@ -32,10 +28,9 @@ class User:
 user1= User("Anurag","anurag@gmail.com", "123")
 
 print(user1.get_email())
-
 # user1.email="a"   # we dont waht someone to change it and its a bad case 
 # print(user1.email)
 user1.set_email("apoutlook.com")
 print(user1.get_email())
 
-print(user1.password)
+
