@@ -12,7 +12,7 @@ class Hii(Thread):
     def run(self):
         for i in range(5):
             print("Hiii")
-            sleep(1)
+            sleep(1) #$for 1 sec sleep delay
 
 t1=Hello()
 t2=Hii()
