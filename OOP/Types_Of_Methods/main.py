@@ -16,7 +16,7 @@ class Student():
         return cls.school
     @staticmethod
     def info():
-        print("This is Student Class..",Student.school)
+        print("This is Student Class..")
     
 
 
