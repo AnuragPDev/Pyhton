@@ -18,3 +18,4 @@ print(num)
 #clear the list
 num.clear()
 print(num)
+
