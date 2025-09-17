@@ -2,7 +2,7 @@
 # for loop 
 # when we know the number of times we want to repeat something 
 
-name ="Anurag is a millioanire"
+name ="Anurag is a millionaire"
 for char in name:
     print(char,end="")
 
