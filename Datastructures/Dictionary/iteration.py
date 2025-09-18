@@ -5,7 +5,7 @@ for key in student:
 
 # print(values)
 for values in student:
-    print(student[values])
+    print(student[values] )
 
 #print key values 
 for key, value in student.items():
